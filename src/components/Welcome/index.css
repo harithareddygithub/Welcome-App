@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e293b;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 38px;
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+  }
+}
+
+.text {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+.button-1 {
+  font-size: 24px;
+  color: #1e293b;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'Bree Serif';
+  padding: 6px;
+}
